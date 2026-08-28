@@ -1,0 +1,99 @@
+{
+  "name": "Project Concord",
+  "dataColors": [
+    "#1C2B4A",
+    "#5B3A7A",
+    "#1F5F7A",
+    "#2F6D5C",
+    "#8C2F39",
+    "#3F6B2B",
+    "#B8860B",
+    "#73726C"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2C2C2A",
+  "tableAccent": "#1C2B4A",
+  "good": "#2F6D5C",
+  "neutral": "#B8860B",
+  "bad": "#8C2F39",
+  "maximum": "#1C2B4A",
+  "center": "#5B3A7A",
+  "minimum": "#F7F7F9",
+  "textClasses": {
+    "callout": {
+      "fontSize": 36,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1C2B4A"
+    },
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2C2C2A"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFFFFF"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#2C2C2A"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E5E5E5" } }, "radius": 6 }],
+        "dropShadow": [{ "show": true, "color": { "solid": { "color": "#00000022" } }, "position": "Outside", "shadowBlur": 6 }],
+        "title": [{
+          "show": true,
+          "fontColor": { "solid": { "color": "#1C2B4A" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "bold": true,
+          "fontSize": 13
+        }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{
+          "color": { "solid": { "color": "#1C2B4A" } },
+          "fontSize": 32,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        "categoryLabels": [{
+          "color": { "solid": { "color": "#73726C" } },
+          "fontSize": 11
+        }]
+      }
+    },
+    "kpi": {
+      "*": {
+        "trendline": [{ "color": { "solid": { "color": "#2F6D5C" } } }],
+        "goal": [{ "color": { "solid": { "color": "#73726C" } } }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [{
+          "gridVertical": false,
+          "gridHorizontalColor": { "solid": { "color": "#F0F0EE" } },
+          "rowPadding": 6
+        }],
+        "columnHeaders": [{
+          "backColor": { "solid": { "color": "#1C2B4A" } },
+          "fontColor": { "solid": { "color": "#FFFFFF" } },
+          "bold": true,
+          "fontSize": 11
+        }],
+        "values": [{
+          "backColorPrimary": { "solid": { "color": "#FFFFFF" } },
+          "backColorSecondary": { "solid": { "color": "#F7F7F9" } },
+          "fontSize": 11
+        }]
+      }
+    }
+  }
+}
